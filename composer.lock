@@ -4,14 +4,14 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5c06de057e7d3bdc4923861dc11e9f4e",
+    "content-hash": "eb17cee5158bc2ebe2240cdf59cde682",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
             "version": "5.8.4",
             "dist": {
                 "type": "zip",
-                "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_KEY}&t=5.8.4"
+                "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_KEY}&t=5.8.4#v5.8.4"
             },
             "require": {
                 "ffraenz/private-composer-installer": "^2.0"
@@ -826,6 +826,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-importer/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-admin-ui-customize",
+            "version": "1.5.12",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-admin-ui-customize/",
+                "reference": "tags/1.5.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-admin-ui-customize.1.5.12.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-admin-ui-customize/"
         },
         {
             "name": "wpackagist-plugin/wp-mail-smtp",
